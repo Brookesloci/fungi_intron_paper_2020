@@ -5,7 +5,7 @@ Rmac,0.355
 Ccar,0.378
 Cpsa,0.364
 Cepi,0.344
-Ccor,0.348
+Capcor,0.348
 Esid,0.372
 Exen,0.398
 Espi,0.38
@@ -47,7 +47,7 @@ Xhev,0.892
 Slyv,0.466
 Bory,0.599
 Pter,0.569
-Ptri,0.6
+Pytri,0.6
 Pnod,0.541
 Lmac,0.593
 Mpha,0.627
@@ -185,7 +185,7 @@ Gtra,3.78
 Post,3.892
 Fhep,3.998
 Ctor,3.013
-Scom,3.49
+Scomp,3.49
 Glux,3.998
 Mper,4.107
 Mror,3.479
