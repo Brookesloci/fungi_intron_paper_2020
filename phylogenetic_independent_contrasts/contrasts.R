@@ -2,7 +2,6 @@ library(phytools)
 library(paleotree)
 library(caper)
 library(bestNormalize)
-setwd('~/Documents/manuscript/fungi/contrasts')
 t <- read.tree("silva.nwk")
 # drop zero-length terminal branches and collapse internal zero-length branches
 nt <- di2multi(dropZLB(t))
