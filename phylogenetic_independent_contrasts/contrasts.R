@@ -1,18 +1,52 @@
-library(phylotools)
+library(phytools)
+library(paleotree)
 library(caper)
 library(bestNormalize)
-t <- read.tree("~/fungi/ref/silva/phylo.io.tre")
-d <- read.table("~/fungi/ref/ensembl/FFP/malin_out/intronPerKb.silva.pic", header=F, sep="\t")
-names(d) <- c("species","taxid","genome_size","num_CDS","num_CDS_introns","num_intron_retaining_CDS","intron_per_kb","num_CDS_introns_MCMC","intron_per_kb_MCMC")
+setwd('~/Documents/manuscript/fungi/contrasts')
+t <- read.tree("silva.nwk")
+# drop zero-length terminal branches and collapse internal zero-length branches
+nt <- di2multi(dropZLB(t))
+df <- read.csv("TableS1_IntronPerKb_Annotation.csv")
+tip <- as.data.frame(nt$tip.label)
+names(tip) <- 'genome'
+# create new table
+d <- merge(df, tip, by='genome')
 
-#try different transformations
-log_obj <- log10(d$intron_per_kb_MCMC)
-arcsinh_obj <- arcsinh_x(d$intron_per_kb_MCMC)
-boxcox_obj <- boxcox(d$intron_per_kb_MCMC)
-yeojohnson_obj <- yeojohnson(d$intron_per_kb_MCMC)
-orderNorm_obj <- orderNorm(d$intron_per_kb_MCMC)
+# try different transformations
+# intron_per_kb
+log_obj <- log10(d$intron_per_kb)
+arcsinh_obj <- arcsinh_x(d$intron_per_kb)
+boxcox_obj <- boxcox(d$intron_per_kb)
+yeojohnson_obj <- yeojohnson(d$intron_per_kb)
+orderNorm_obj <- orderNorm(d$intron_per_kb)
 par(mfrow = c(2,3))
-MASS::truehist(d$intron_per_kb_MCMC, main = "No transformation", nbins = 12)
+MASS::truehist(d$intron_per_kb, main = "No transformation", nbins = 12)
+MASS::truehist(log_obj, main = "log10", nbins = 12)
+MASS::truehist(arcsinh_obj$x.t, main = "Arcsinh", nbins = 12)
+MASS::truehist(boxcox_obj$x.t, main = "Box Cox", nbins = 12)
+MASS::truehist(yeojohnson_obj$x.t, main = "Yeo-Johnson", nbins = 12)
+MASS::truehist(orderNorm_obj$x.t, main = "orderNorm", nbins = 12)
+# genome_size
+log_obj <- log10(d$genome_size)
+arcsinh_obj <- arcsinh_x(d$genome_size)
+boxcox_obj <- boxcox(d$genome_size)
+yeojohnson_obj <- yeojohnson(d$genome_size)
+orderNorm_obj <- orderNorm(d$genome_size)
+par(mfrow = c(2,3))
+MASS::truehist(d$genome_size, main = "No transformation", nbins = 12)
+MASS::truehist(log_obj, main = "log10", nbins = 12)
+MASS::truehist(arcsinh_obj$x.t, main = "Arcsinh", nbins = 12)
+MASS::truehist(boxcox_obj$x.t, main = "Box Cox", nbins = 12)
+MASS::truehist(yeojohnson_obj$x.t, main = "Yeo-Johnson", nbins = 12)
+MASS::truehist(orderNorm_obj$x.t, main = "orderNorm", nbins = 12)
+# num_CDS
+log_obj <- log10(d$num_CDS)
+arcsinh_obj <- arcsinh_x(d$num_CDS)
+boxcox_obj <- boxcox(d$num_CDS)
+yeojohnson_obj <- yeojohnson(d$num_CDS)
+orderNorm_obj <- orderNorm(d$num_CDS)
+par(mfrow = c(2,3))
+MASS::truehist(d$num_CDS, main = "No transformation", nbins = 12)
 MASS::truehist(log_obj, main = "log10", nbins = 12)
 MASS::truehist(arcsinh_obj$x.t, main = "Arcsinh", nbins = 12)
 MASS::truehist(boxcox_obj$x.t, main = "Box Cox", nbins = 12)
@@ -21,30 +55,23 @@ MASS::truehist(orderNorm_obj$x.t, main = "orderNorm", nbins = 12)
 
 # orderNorm Transformation
 d$on_genome_size <- (orderNorm(d$genome_size))$x.t
-d$on_intron_per_kb_MCMC <- (orderNorm(d$intron_per_kb_MCMC))$x.t
+d$on_intron_per_kb <- (orderNorm(d$intron_per_kb))$x.t
 d$on_num_CDS <- (orderNorm(d$num_CDS))$x.t
-intron <- comparative.data(t, d, species)
-fit1 <- crunch(on_genome_size ~ on_intron_per_kb_MCMC, data=intron, equal.branch.length=T)
-fit2 <- crunch(on_genome_size ~ on_num_CDS, data=intron, equal.branch.length=T)
-fit3 <- crunch(on_genome_size ~ on_intron_per_kb_MCMC + on_num_CDS, data=intron, equal.branch.length=T)
-fit4 <- crunch(on_genome_size ~ 1, data=intron, equal.branch.length=T)
-anova(fit1,fit3)
-anova(fit2,fit3)
-AIC(fit1,fit2,fit3,fit4)
-# df       AIC
-# fit1  2 76.967852
-# fit2  2  5.983495
-# fit3  3 -3.703498
-# fit4  1 86.481392
+intron <- comparative.data(nt, d, genome)
 
-par(mfrow=c(3,3))
+# phylogenetic independent contrasts
+par(mfrow=c(2,2))
+fit3 <- crunch(on_genome_size ~ on_intron_per_kb + on_num_CDS, data=intron)
+fit3 <- caic.robust(fit3, robust=1)
+caic.diagnostics(fit3)
 crunchTab <- caic.table(fit3)
-plot(on_genome_size ~ on_intron_per_kb_MCMC + on_num_CDS, crunchTab)
+plot(on_genome_size ~ on_intron_per_kb + on_num_CDS, crunchTab)
+summary(fit3)
+# diagnosics
+par(mfrow = c(2,3))
 hist(fit3$mod$residuals)
 plot(fit3)
 
-summary(fit3)
-
-#correlation analysis
-cor.test(crunchTab$on_genome_size, crunchTab$on_intron_per_kb_MCMC, method='spearman')
+# correlation tests
+cor.test(crunchTab$on_genome_size, crunchTab$on_intron_per_kb, method='spearman')
 cor.test(crunchTab$on_genome_size, crunchTab$on_num_CDS, method='spearman')
