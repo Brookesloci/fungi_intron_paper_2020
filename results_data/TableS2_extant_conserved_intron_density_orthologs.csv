@@ -1,4 +1,4 @@
-taxid,abbreviation,genome,organism_name,num_introns_bootstrap,sum_CDS_length,intron_per_kb_Malin
+taxid,abbreviation,genome,organism_name,conserved_intron_orthologs,sum_bp_CDS,conserved_intron_per_kb
 1003232,Eaed,Edhazardia_aedis_usnm_41457.Edha_aedis_V4b,Edhazardia aedis USNM 41457,0,175034,0.00
 100787,Vlon,Verticillium_longisporum_gca_001268165.vl2.denovo.v1,Verticillium longisporum,731,976078,0.75
 1016849,Esid,Exophiala_sideris.Exop_side_CBS121828_V1,Exophiala sideris,407,1036354,0.39
