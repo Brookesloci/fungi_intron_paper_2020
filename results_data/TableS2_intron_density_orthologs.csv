@@ -35,7 +35,7 @@ taxid,abbreviation,genome,organism_name,conserved_intron_orthologs,sum_bp_CDS,co
 1173061,Gcan,Geotrichum_candidum.New2.3_08062011,Geotrichum candidum,183,971745,0.19
 1173701,Ssub,Colletotrichum_sublineola.ASM69613v1,Colletotrichum sublineola,578,1026362,0.56
 1178016,Erom,Encephalitozoon_romaleae_sj_2008.ASM28003v2,Encephalitozoon romaleae SJ-2008,0,202802,0.00
-1182541,Ccor,Capronia_coronata_cbs_617_96.Capr_coro_CBS_617_96_V1,Capronia coronata CBS 617.96,389,1040580,0.37
+1182541,Capcor,Capronia_coronata_cbs_617_96.Capr_coro_CBS_617_96_V1,Capronia coronata CBS 617.96,389,1040580,0.37
 1182542,Cepi,Capronia_epimyces_cbs_606_96.Capr_epim_CBS_606_96_V1,Capronia epimyces CBS 606.96,378,1037197,0.36
 1182543,Cpsa,Cladophialophora_psammophila_cbs_110553.Clad_psam_CBS_110553_V1,Cladophialophora psammophila CBS 110553,400,1039703,0.38
 1182545,Eaqu,Exophiala_aquamarina_cbs_119918.Exop_aqua_CBS_119918_V1,Exophiala aquamarina CBS 119918,356,1027689,0.35
@@ -142,7 +142,7 @@ taxid,abbreviation,genome,organism_name,conserved_intron_orthologs,sum_bp_CDS,co
 413071,Tvir,Trichoderma_virens.ASM17099v1,Trichoderma virens Gv29-8,579,1014981,0.57
 420778,Dser,Diplodia_seriata.UCDDS831v0.1,Diplodia seriata,741,901247,0.82
 425011,Anig,Aspergillus_niger.ASM285v2,Aspergillus niger CBS 513.88,718,983771,0.73
-426418,Ptri,Pyrenophora_triticirepentis.GCA_000149985.1,Pyrenophora tritici-repentis Pt-1C-BFP,639,1000726,0.64
+426418,Pytri,Pyrenophora_triticirepentis.GCA_000149985.1,Pyrenophora tritici-repentis Pt-1C-BFP,639,1000726,0.64
 436907,Vpol,Vanderwaltozyma_polyspora_dsm_70294.ASM15003v1,Vanderwaltozyma polyspora DSM 70294,3,878218,0.00
 441959,Tsti,Talaromyces_stipitatus_atcc_10500.JCVI-TSTA1-3.0,Talaromyces stipitatus ATCC 10500,792,1049917,0.75
 447095,Bder,Blastomyces_dermatitidis_atcc_26199.BD_ATCC26199_V2,Blastomyces dermatitidis ATCC 26199,766,1051021,0.73
@@ -210,7 +210,7 @@ taxid,abbreviation,genome,organism_name,conserved_intron_orthologs,sum_bp_CDS,co
 675120,Dsep,Dothistroma_septosporum.GCA_000340195.1,Dothistroma septosporum NZE10,360,1005326,0.36
 683840,Mlyc,Microbotryum_violaceum.GCA_000166175.1,Microbotryum lychnidis-dioicae p1A1 Lamole,2982,1076545,2.77
 692275,Smus,Sphaerulina_musiva_so2202.Septoria_musiva_SO2202_v1_0,Sphaerulina musiva SO2202,360,1013775,0.36
-698492,Scom,Saitoella_complicata_nrrl_y_17804.Scomplicata_3.0,Saitoella complicata NRRL Y-17804,457,1072622,0.43
+698492,Scomp,Saitoella_complicata_nrrl_y_17804.Scomplicata_3.0,Saitoella complicata NRRL Y-17804,457,1072622,0.43
 708197,Ctof,Colletotrichum_tofieldiae.Ct0861v1,Colletotrichum tofieldiae,505,1012629,0.50
 717646,Bpan,Baudoinia_panamericana_uamh_10762.Bauco1,Baudoinia panamericana UAMH 10762,338,991199,0.34
 72032,Tpun,Thielaviopsis_punctulata.ASM96861v1,Thielaviopsis punctulata,451,993499,0.45
