@@ -2,7 +2,7 @@
 
 """
 
-Code to calculate kbp CDS per species from a folder of multiple protein alignments.
+Code to calculate bp CDS per species from a folder of multiple protein alignments.
 
 """
 
@@ -19,23 +19,23 @@ for filename in os.listdir("os.curdir"):
             x = record.seq
             y = str(x)
             z = y.replace("-","")
-            kbp = len(z)
+            bp = len(z)
             a = record.id
             b = str(a)
             taxid = b.split('|')[0]
             if taxid in CDS.keys():
                 c = CDS.get(taxid)
-                total = c + kbp
+                total = c + bp
             else:
-                total = kbp
+                total = bp
             CDS.update({taxid : total})
     else:
         continue
-print ("Dict taxid-kbp CDS are : ") 
+print ("Dict taxid-bp CDS are : ") 
 for i in CDS : 
             print(i, CDS[i]) 
 
-with open('kbp_CDS.csv', 'w') as f:  
+with open('bp_CDS.csv', 'w') as f:  
     w = csv.DictWriter(f, CDS.keys())
     w.writeheader()
     w.writerow(CDS)
