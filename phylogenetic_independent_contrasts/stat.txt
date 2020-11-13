@@ -1,0 +1,116 @@
+species	taxid	genome	organism_name	assembly_level	genome_size	num_CDS	num_introns	sum_CDS_length	sum_intron_length	intron_per_kb
+Eremothecium_gossypii	1034331	Ashbya_gossypii_fdag1.ASM96883v1	Eremothecium gossypii FDAG1	Complete Genome	9157154	4759	270	7003446	28117	0.0385524
+Saccharomyces_cerevisiae	559292	Saccharomyces_cerevisiae.R64-1-1	Saccharomyces cerevisiae S288C	Complete Genome	12157105	6619	282	8801211	111916	0.032041
+Thielavia_terrestris	578455	Thielavia_terrestris_nrrl_8126.ASM22611v1	Thielavia terrestris NRRL 8126	Complete Genome	36912256	9802	17290	13641909	1958465	1.26742
+Verticillium_dahliae	1202531	Verticillium_dahliaejr2.GCA_000400815.2	Verticillium dahliae JR2	Complete Genome	36150287	11424	16261	15594541	1486506	1.04274
+Agaricus_bisporus	936046	Agaricus_bisporus_var_bisporus_h97.Agabi_varbisH97_2	Agaricus bisporus var. bisporus H97	Chromosome	30233745	10441	50790	13351824	3487144	3.80397
+Aspergillus_nidulans	227321	Aspergillus_nidulans.ASM1142v1	Aspergillus nidulans FGSC A4	Chromosome	29925798	10533	24460	15266724	2186566	1.60218
+Candida_albicans	237561	Candida_albicans_sc5314.ASM18296v2	Candida albicans SC5314	Chromosome	27558918	14213	0	17829351	0	0
+Cryptococcus_neoformans	214684	Cryptococcus_neoformans.GCA_000091045.1	Cryptococcus neoformans var. neoformans JEC21	Chromosome	19051922	6273	33000	10097664	2219412	3.26808
+Debaryomyces_hansenii	284592	Debaryomyces_hansenii_cbs767.ASM644v2	Debaryomyces hansenii CBS767	Chromosome	12152486	6270	466	9020967	61662	0.0516574
+Fusarium_verticillioides	334819	Fusarium_verticillioides.ASM14955v1	Fusarium verticillioides 7600	Chromosome	41885085	14166	24282	17841492	2435534	1.36098
+Homo_sapiens	9606	Homo_sapiens.GRCh38.p12	Homo sapiens	Chromosome	3099706404	19803	171094	130648074	954865047	6.2496813022496
+Lachancea_thermotolerans	559295	Lachancea_thermotolerans_cbs_6340.ASM14280v1	Lachancea thermotolerans CBS 6340	Chromosome	10392862	5092	284	7516299	41880	0.0377846
+Neurospora_crassa	367110	Neurospora_crassa.NC12	Neurospora crassa OR74A	Chromosome	41102378	9730	15710	14879316	1766110	1.05583
+Scheffersomyces_stipitis	322104	Scheffersomyces_stipitis_cbs_6054.ASM20916v1	Scheffersomyces stipitis CBS 6054	Chromosome	15441179	5818	2567	8605777	326734	0.298288
+Schizosaccharomyces_pombe	4896	Schizosaccharomyces_pombe.ASM294v2	Schizosaccharomyces pombe	Chromosome	12631379	5114	5048	7134680	446538	0.70753
+Sporisorium_reilianum	999809	Sporisorium_reilianum.GCA_000230245.1	Sporisorium reilianum SRZ2	Chromosome	18476874	6603	3015	11823933	418031	0.254991
+Tetrapisispora_blattae	1071380	Tetrapisispora_blattae_cbs_6284.ASM31591v1	Tetrapisispora blattae CBS 6284	Chromosome	14048593	5384	163	8749940	32029	0.0186287
+Ustilago_maydis	237631	Ustilago_maydis.Umaydis521_2.0	Ustilago maydis 521	Chromosome	19664356	6765	2947	11994523	428067	0.245695
+Zymoseptoria_tritici	336722	Zymoseptoria_tritici.MG2	Zymoseptoria tritici IPO323	Chromosome	39686251	10931	17312	14255098	2376584	1.21444
+Allomyces_macrogynus	578462	Allomyces_macrogynus_atcc_38327.A_macrogynus_V3	Allomyces macrogynus ATCC 38327	Scaffold	57060573	18772	43475	26980158	4510614	1.61137
+Anthracocystis_flocculosa	1277687	Anthracocystis_flocculosa_pf_1.Pflocc_1.0	Anthracocystis flocculosa PF-1	Scaffold	23305380	4425	7998	8357607	1161682	0.956972
+Aspergillus_clavatus	344612	Aspergillus_clavatus.CADRE	Aspergillus clavatus NRRL 1	Scaffold	27859441	9115	18832	13529165	1477821	1.39196
+Aspergillus_flavus	332952	Aspergillus_flavus.JCVI-afl1-v2.0	Aspergillus flavus NRRL3357	Scaffold	36892344	13482	24417	17050017	2611326	1.43208
+Aspergillus_niger	425011	Aspergillus_niger.ASM285v2	Aspergillus niger CBS 513.88	Scaffold	33975768	13939	35905	18379990	3494956	1.95348
+Aspergillus_terreus	341663	Aspergillus_terreus.CADRE	Aspergillus terreus NIH2624	Scaffold	29331195	10402	22706	15576351	3284870	1.45772
+Blastomyces_dermatitidis	447095	Blastomyces_dermatitidis_atcc_26199.BD_ATCC26199_V2	Blastomyces dermatitidis ATCC 26199	Scaffold	71515325	9180	18476	12517287	2012646	1.47604
+Blumeria_graminis	1268274	Blumeria_graminis_f_sp_tritici_96224.Bgt_454_newbler_assembly	Blumeria graminis f. sp. tritici 96224	Scaffold	158944908	4024	6008	5331653	441822	1.12686
+Candida_tropicalis	294747	Candida_tropicalis_mya_3404.ASM633v2	Candida tropicalis MYA-3404	Scaffold	14421905	6163	34	8987424	6775	0.00378306
+Claviceps_purpurea	1111077	Claviceps_purpurea_20_1.ASM34735v1	Claviceps purpurea 20.1	Scaffold	32091443	8823	15207	12786255	1889115	1.18932
+Clavispora_lusitaniae	306902	Clavispora_lusitaniae_atcc_42720.ASM383v1	Clavispora lusitaniae ATCC 42720	Scaffold	12114892	5936	15	8246328	2569	0.00181899
+Coccidioides_immitis	246410	Coccidioides_immitis_rs.ASM14933v2	Coccidioides immitis RS	Scaffold	29016019	9757	20749	12739272	1810021	1.62874
+Coccidioides_posadasii	443226	Coccidioides_posadasii_str_silveira.CPS2	Coccidioides posadasii str. Silveira	Scaffold	27583241	10225	20608	12567411	1825211	1.6398
+Colletotrichum_higginsianum	80884	Colletotrichum_higginsianum.GCA_000313795.2	Colletotrichum higginsianum	Scaffold	49084868	16141	23319	17678667	2022250	1.31905
+Conidiobolus_coronatus	796925	Conidiobolus_coronatus_nrrl_28638.Conidiobolus_coronatus_NRRL28638	Conidiobolus coronatus NRRL 28638	Scaffold	39903661	10568	18352	10984186	1569531	1.67077
+Coniosporium_apollinis	1168221	Coniosporium_apollinis_cbs_100218.Coni_apol_CBS100218__V1	Coniosporium apollinis CBS 100218	Scaffold	28645321	9308	16988	13487287	1377404	1.25956
+Cordyceps_militaris	983644	Cordyceps_militaris_cm01.CmilitarisCM01_v01	Cordyceps militaris CM01	Scaffold	32268578	9651	19221	14644389	2177517	1.31252
+Dactylellina_haptotyla	1284197	Dactylellina_haptotyla_cbs_200_50.MHA_v2	Dactylellina haptotyla CBS 200.50	Scaffold	39531920	10959	25305	17040818	2747512	1.48496
+Diplodia_seriata	420778	Diplodia_seriata.UCDDS831v0.1	Diplodia seriata	Scaffold	37120944	9343	19640	12342306	2362356	1.59127
+Drechslerella_stenobrocha	1043628	Drechslerella_stenobrocha_248.DREv1	Drechslerella stenobrocha 248	Scaffold	21174508	5597	14382	8693097	1264382	1.65442
+Erysiphe_necator	52586	Erysiphe_necator.ASM79871v1	Erysiphe necator	Scaffold	52505057	6484	10960	9202902	897847	1.19093
+Eutypa_lata	1287681	Eutypa_lata_ucrel1.UCREL1V03	Eutypa lata UCREL1	Scaffold	54005819	11685	22293	15149520	2748521	1.47153
+Exobasidium_vaccinii	5407	Exova1	Exobasidium vaccinii MPITM v1.0	Scaffold	16990195	6911	12717	10449834	1140891	1.24634
+Exophiala_dermatitidis	858893	Exophiala_dermatitidis_nih_ut8656.Exop_derm_V1	Exophiala dermatitidis NIH/UT8656	Scaffold	26376767	9269	11513	13956046	939605	0.824947
+Fomitopsis_pinicola	743788	Fomitopsis_pinicola_fp_58527_ss1.Fompi3	Fomitopsis pinicola FP-58527 SS1	Scaffold	41614358	13851	62213	16855709	5038868	3.69092
+Fusarium_fujikuroi	1215603	Fusarium_fujikuroi.EF1	Fusarium fujikuroi B14	Scaffold	43847810	14809	26764	21589371	1854274	1.23968
+Fusarium_oxysporum	1080343	Fusarium_oxysporum_f_sp_lycopersici_mn25.FO_MN25_V1	Fusarium oxysporum f. sp. lycopersici MN25	Scaffold	48637398	17923	28565	23375703	1952431	1.222
+Gelatoporia_subvermispora	914234	Gelatoporia_subvermispora_b.Ceriporiopsis_subvermispora_B_v1_0	Gelatoporia subvermispora B	Scaffold	38969650	12121	61821	15490598	4264901	3.99087
+Heterobasidion_irregulare	747525	Heterobasidion_irregulare_tc_32_1.Heterobasidion_irregulare_v2_0	Heterobasidion irregulare TC 32-1	Scaffold	33649967	13264	56910	15123360	4459254	3.76305
+Histoplasma_capsulatum	339724	Histoplasma_capsulatum_nam1.ASM14958v1	Histoplasma capsulatum NAm1	Scaffold	33030326	9313	23459	12227433	3304601	1.91855
+Hydnomerulius_pinastri	994086	Hydnomerulius_pinastri_md_312.Hydpi2	Hydnomerulius pinastri MD-312	Scaffold	38278792	7910	34376	9099323	2773538	3.77786
+Jaapia_argillacea	933084	Jaapia_argillacea_mucl_33604.Jaaar1	Jaapia argillacea MUCL 33604	Scaffold	45045899	16373	71494	19368018	4940059	3.69134
+Laccaria_bicolor	486041	Laccaria_bicolor_s238n_h82.V1.0	Laccaria bicolor S238N-H82	Scaffold	64877444	18215	80946	20155923	6671781	4.01599
+Leptosphaeria_maculans	985895	Leptosphaeria_maculans.ASM23037v1	Leptosphaeria maculans JN3	Scaffold	45124619	12469	22732	15689736	2342595	1.44885
+Metarhizium_guizhouense	1276136	Metarhizium_guizhouense_arsef_977.MGU_1.0	Metarhizium guizhouense ARSEF 977	Scaffold	43465197	11787	17980	17579889	1533199	1.02276
+Meyerozyma_guilliermondii	294746	Meyerozyma_guilliermondii_atcc_6260.ASM14942v1	Meyerozyma guilliermondii ATCC 6260	Scaffold	10609954	5920	15	8302322	1708	0.00180672
+Ophiocordyceps_sinensis	911162	Ophiocordyceps_sinensis_co18.ASM44836v1	Ophiocordyceps sinensis CO18	Scaffold	78515811	6972	11223	9328881	963601	1.20304
+Ophiocordyceps_unilateralis	268505	Ophiocordyceps_unilateralis.ASM127257v1	Ophiocordyceps unilateralis	Scaffold	25493697	7821	15502	12270210	1503391	1.26339
+Ophiostoma_piceae	1262450	Ophiostoma_piceae_uamh_11346.Opiceae_UAMHv01	Ophiostoma piceae UAMH 11346	Scaffold	32840360	8884	11107	14851140	1330168	0.747889
+Parastagonospora_nodorum	321614	Phaeosphaeria_nodorum.ASM14691v1	Parastagonospora nodorum SN15	Scaffold	37285498	12372	20324	15690698	1866505	1.29529
+Phaeoacremonium_minimum	1286976	Phaeoacremonium_minimum_ucrpa7.UCRPA7V03	Phaeoacremonium minimum UCRPA7	Scaffold	47465449	8834	15727	11762433	1592773	1.33705
+Phanerochaete_carnosa	650164	Phanerochaete_carnosa_hhb_10118_sp.Phanerochaete_carnosa_HHB-10118-Sp_v1_0	Phanerochaete carnosa HHB-10118-sp	Scaffold	46293325	13925	56742	16026329	3996771	3.54055
+Pleurotus_ostreatus	1137138	Pleurotus_ostreatus_pc15.PleosPC15_2	Pleurotus ostreatus PC15	Scaffold	34342730	12296	61517	15389978	4568676	3.99721
+Podospora_anserina	515849	Podospora_anserina_s_mat_.ASM22654v1	Podospora anserina S mat+	Scaffold	34718894	10546	13436	15694914	1066057	0.856074
+Pyrenophora_tritici-repentis	426418	Pyrenophora_triticirepentis.GCA_000149985.1	Pyrenophora tritici-repentis Pt-1C-BFP	Scaffold	37997465	12169	20291	16413682	2321201	1.23622
+Scleroderma_citrinum	1036808	Scleroderma_citrinum_foug_a.Scleroderma_citrinum_Foug_A_v1_0	Scleroderma citrinum Foug A	Scaffold	56144862	20987	65126	18829295	5088501	3.45876
+Serpula_lacrymans	578457	Serpula_lacrymans_var_lacrymans_s7_9.v1.0	Serpula lacrymans var. lacrymans S7.9	Scaffold	42797233	12920	55582	13192406	4110720	4.21318
+Sphaerulina_musiva	692275	Sphaerulina_musiva_so2202.Septoria_musiva_SO2202_v1_0	Sphaerulina musiva SO2202	Scaffold	29352103	10156	12670	13772284	1403245	0.919964
+Spizellomyces_punctatus	645134	Spizellomyces_punctatus_daom_br117.S_punctatus_V1	Spizellomyces punctatus DAOM BR117	Scaffold	24131112	8950	42833	13870252	3002738	3.08812
+Sporisorium_scitamineum	49012	Sporisorium_scitamineum.Sporisorium_scitamineum	Sporisorium scitamineum	Scaffold	19427878	7711	5382	11265410	829187	0.477746
+Tolypocladium_ophioglossoides	1163406	Tolypocladium_ophioglossoides_cbs_100239.Tophv1.0	Tolypocladium ophioglossoides CBS 100239	Scaffold	31245833	9151	16870	13922182	1443954	1.21174
+Trichoderma_harzianum	5544	Trichoderma_harzianum.ASM98886v1	Trichoderma harzianum	Scaffold	39721542	11498	21348	17439906	2023353	1.22409
+Trichoderma_reesei	1344414	Trichoderma_reesei_rut_c_30.TrireRUTC30_1	Trichoderma reesei RUT C-30	Scaffold	32681481	9849	18396	13865011	2151909	1.32679
+Trichoderma_virens	413071	Trichoderma_virens.ASM17099v1	Trichoderma virens Gv29-8	Scaffold	39022666	12400	23684	17541190	2445744	1.35019
+Trichophyton_rubrum	1215328	Trichophyton_rubrum_cbs_100081.Tric_fish_CBS_100081_V1	Trichophyton rubrum CBS 100081	Scaffold	23061810	8885	15135	11834931	1195444	1.27884
+Tuber_melanosporum	39416	Tuber_melanosporum.ASM15164v1	Tuber melanosporum	Scaffold	124945702	7496	21525	9864156	2313984	2.18214
+Ustilago_hordei	120017	Ustilago_hordei.ASM28603v1	Ustilago hordei	Scaffold	21150702	7093	3862	12098772	546737	0.319206
+Vanderwaltozyma_polyspora	436907	Vanderwaltozyma_polyspora_dsm_70294.ASM15003v1	Vanderwaltozyma polyspora DSM 70294	Scaffold	14674591	5328	156	8070048	41806	0.0193307
+Brettanomyces_bruxellensis	1124627	Brettanomyces_bruxellensis_awri1499.AWRI1499_v1.0	Brettanomyces bruxellensis AWRI1499	Contig	12676548	4861	532	5211339	142249	0.102085
+Byssochlamys_spectabilis	1356009	Byssochlamys_spectabilis_no_5.PVAR5_assembly01	Byssochlamys spectabilis No. 5	Contig	29762401	8877	21774	14353068	2568498	1.51703
+Macrophomina_phaseolina	1126212	Macrophomina_phaseolina_ms6.MphMS6_1.0	Macrophomina phaseolina MS6	Contig	48882845	13805	20766	17782018	1809128	1.16781
+Amanita_caesarea	946122	Amanita_muscaria_koide_bx008.Amanita_muscaria_Koide_BX008_v1_0	Amanita muscaria Koide BX008	Scaffold	40699759	18080	59674	17790711	4222858	3.35422
+Arthrobotrys_vermicola	756982	Arthrobotrys_oligospora_atcc_24927.AOL24927_1_0	Arthrobotrys oligospora ATCC 24927	Scaffold	40072829	11479	24896	17203295	2220494	1.44716
+Dothidea_insculpta	1043002	Aureobasidium_pullulans_exf_150.Aureobasidium_pullulans_var_pullulans_EXF-150_assembly_version_1_0	Aureobasidium pullulans EXF-150	Scaffold	29621078	11844	17071	15804266	1339592	1.08015
+[Candida]_intermedia	498019	Candida_auris.ASM118947v1	[Candida] auris	Scaffold	12498763	7461	0	8011551	0	0
+Flammulina_velutipes	1314674	Cylindrobasidium_torrendii_fp15055_ss_10.Cylto1	Cylindrobasidium torrendii FP15055 ss-10	Scaffold	31574086	13927	56512	17302504	3198530	3.26612
+Valsa_mali	1214573	Diaporthe_ampelina.UCDDA912v1.0	Diaporthe ampelina	Scaffold	47325858	10704	19099	14203473	2233668	1.34467
+Verrucaria_muralis	1263415	Endocarpon_pusillum_z07020.EPUS	Endocarpon pusillum Z07020	Scaffold	37130611	9238	14279	14706639	1603668	0.970922
+Pseudohalonectria_lignicola	644352	Gaeumannomyces_graminis.Gae_graminis_V2	Gaeumannomyces tritici R3-111a-1	Scaffold	43768664	14174	23093	18466902	3221357	1.25051
+Neolentinus_lepideus	670483	Gloeophyllum_trabeum_atcc_11539.Glotr1_1	Gloeophyllum trabeum ATCC 11539	Scaffold	37178225	11755	57748	14909707	4193361	3.87318
+Grosmannia_europhioides	655863	Grosmannia_clavigera_kw1407.Sanger-454-IlluminaPA_2.0	Grosmannia clavigera kw1407	Scaffold	29794006	8312	15415	13620141	1892314	1.13178
+Marasmiellus_ramealis	944289	Gymnopus_luxurians_fd_317_m1.Gymlu1	Gymnopus luxurians FD-317 M1	Scaffold	66281670	14594	55928	14977779	4792267	3.73406
+Stropharia_ambigua	945553	Hypholoma_sublateritium_fd_334_ss_4.Hypsu1	Hypholoma sublateritium FD-334 SS-4	Scaffold	48031814	17766	73421	20564645	5318435	3.57025
+Melampsora_abietis-canadensis	747676	Melampsora_laricipopulina.GCA_000204055.1	Melampsora larici-populina 98AG31	Scaffold	101129028	16371	62886	18378677	7233220	3.42168
+Fusarium_phaseoli	660122	Fusarium_solani.v2.0	Nectria haematococca mpVI 77-13-4	Scaffold	51291997	15705	32500	22633125	2688366	1.43595
+Mucor_racemosus	35722	Parasitella_parasitica.PP.v1	Parasitella parasitica	Scaffold	44910645	13408	36917	17445859	3015119	2.11609
+Penicillium_javanicum	933388	Penicillium_oxalicum_114_2.pde_v1.0	Penicillium oxalicum 114-2	Scaffold	30177368	9979	19473	13656132	2287044	1.42595
+Athelia_arachnoidea	765440	Piloderma_croceum_f_1598.Piloderma_croceum_F_1598_v1_0	Piloderma croceum F 1598	Scaffold	59326866	21507	76001	21397528	5684298	3.55186
+Taphrina_wiesneri	56484	Prola1	Protomyces lactucaedebilis 12-1054 v1.0	Scaffold	12928838	6726	4358	8216009	279120	0.446216
+Puccinia_lagenophorae	1165861	Puccinia_striiformis_f_sp_tritici_pst_78.P_striiformis_V1	Puccinia striiformis f. sp. tritici PST-78	Scaffold	117391083	19542	60521	21426621	6076875	2.82457
+Aleuria_aurantia	1076935	Pyronema_omphalodes_cbs_100304.Pcon_v1	Pyronema omphalodes CBS 100304	Scaffold	50026054	13367	22481	14606787	2147339	1.53908
+Ceratobasidium_cornigerum	1086054	Rhizoctonia_solani_ag_3_rhs1ap.Rhizoctonia_solani_AG-3	Rhizoctonia solani AG-3 Rhs1AP	Scaffold	51705945	12725	69605	17659789	4628663	3.94144
+Rhizophagus_intraradices	1432141	Rhizophagus_irregularis_daom_197198w.Rir	Rhizophagus irregularis DAOM 197198w	Scaffold	140695967	27300	59585	28429863	5181671	2.09586
+Colacogloea_peniophorae	1001064	Rhodotorula_glutinis_atcc_204091.R.glutinis2	Rhodotorula toruloides ATCC 204091	Scaffold	20478880	2817	14016	5409969	1260218	2.59077
+Microascus_cirrosus	563466	Scedosporium_apiospermum.ScApio1.0	Scedosporium apiospermum	Scaffold	43437139	8375	22176	13745250	2641047	1.61336
+Schizophyllum_radiatum	578458	Schizophyllum_commune_h4_8.v1.0	Schizophyllum commune H4-8	Scaffold	38482026	13190	61415	17713921	4724223	3.46705
+Chloroscypha_chloromela	665079	Sclerotinia_sclerotiorum.ASM14694v1	Sclerotinia sclerotiorum 1980 UF-70	Scaffold	27274596	10175	18286	11195259	2517632	1.63337
+Clathrus_archeri	990650	Sphaerobolus_stellatus_ss14.Sphst1	Sphaerobolus stellatus SS14	Scaffold	176372157	25074	83274	21905329	8230210	3.80154
+Verticillium_epiphytum	1159556	Ustilaginoidea_virens.Assembly_for_version_1_of_the_Villosiclava_virens_genome	Ustilaginoidea virens	Scaffold	39397682	8426	13180	11756049	1745870	1.12112
+Cystofilobasidium_capitatum	5421	Xanthophyllomyces_dendrorhous.Xden1	Xanthophyllomyces dendrorhous	Scaffold	19519467	6380	45892	10228762	4882847	4.48656
+Ceratocystis_fimbriata	88771	Ceratocystis_platani.ASM97888v1	Ceratocystis platani	Contig	29181415	5622	10218	8352873	1611641	1.22329
+Coprinopsis_lagopus	240176	Coprinopsis_cinerea_okayama7_130.CC3	Coprinopsis cinerea okayama7#130	Contig	36192590	13339	61780	18522888	4455088	3.33533
+Xylaria_hypoxylon	77044	Rosellinia_necatrix.ASM144559v1	Rosellinia necatrix	Contig	43242629	8628	18335	13201026	1906874	1.38891
+Arthroderma_benhamiae	663331	Arthroderma_benhamiae_cbs_112371.ASM15112v2	Trichophyton benhamiae CBS 112371	Contig	22224160	7980	12672	11832042	1056399	1.07099
+Cercospora_fijiensis	383855	Pseudocercospora_fijiensis_cirad86.Mycfi2	Pseudocercospora fijiensis CIRAD86	Scaffold	74141167	13047	33781	16788765	5124294	2.01212
+Colletotrichum_fructicola	1213859	Colletotrichum_gloeosporioides.GCA_000319635.1	Colletotrichum gloeosporioides Nara gc5	Scaffold	55607143	15381	30737	21814126	2470135	1.40904
