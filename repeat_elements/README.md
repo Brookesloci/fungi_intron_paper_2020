@@ -1,3 +1,5 @@
+Jupyter notebook bootstrap_ks.ipynb for enrichment analysis of repeat elements. Input files are .txt.gz
+
 De novo discovery of repeat elements using Dfam TE Tools v1.2 (Docker image)
 ```
 curl -sSLO https://github.com/Dfam-consortium/TETools/raw/master/dfam-tetools.sh
