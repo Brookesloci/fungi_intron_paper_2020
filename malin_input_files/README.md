@@ -1,0 +1,4 @@
+- tree_taxid_265.nwk - taxonomic tree
+- intron_table_40129_48.txt - intron table generated using Malin (tree_taxid_265.nwk and fasta files in intron_alignment_files as input)
+- rate_40129_48_2L_1G.txt - rate file for rate-variation model
+- rate_40129_48_1L_1G.txt - rate file for constant rate model
