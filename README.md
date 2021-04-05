@@ -1,4 +1,4 @@
-#### Chun Shen Lim, Brooke N. Weinstein, Scott W. Roy, Chris M. Brown. (2020). Analysis of fungal genomes reveals commonalities of intron loss/gain and functions in intron-poor species. bioRxiv. DOI: https://doi.org/10.1101/2020.08.11.247098 (under review, Mol Biol Evol).
+#### Chun Shen Lim, Brooke N. Weinstein, Scott W. Roy, Chris M. Brown. (2021). Analysis of fungal genomes reveals commonalities of intron loss or gain and functions in intron-poor species. Mol Biol Evol. DOI: https://doi.org/10.1093/molbev/msab094.
 
 This repository contains the Jupyter notebooks and data for our analyses.
 - Jupyter notebooks and timetrees for [phylogenetic independent contrasts analysis](https://github.com/Brookesloci/fungi_intron_paper_2020/tree/master/phylogenetic_independent_contrasts). 
